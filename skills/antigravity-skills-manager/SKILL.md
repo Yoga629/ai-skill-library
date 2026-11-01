@@ -1,3 +1,7 @@
+---
+name: antigravity-skills-manager
+description: Install, inspect, and diagnose skills managed by Antigravity Skills Manager.
+---
 # Antigravity Skills Manager
 
 > **Skill ID:** 02  
