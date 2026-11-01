@@ -30,6 +30,46 @@ ai-skill-library/
 4. State the task and explain whether the skill should be applied, adapted, or used as a reference.
 5. Review the output. Skills are guidance, not a substitute for judgment or verification.
 
+## Installation
+
+You can install skills from this repository using the [Skills CLI](https://github.com/vercel-labs/skills).
+
+### Install all available skills
+
+```bash
+npx skills add Yoga629/ai-skill-library
+```
+
+### List available skills
+
+```bash
+npx skills add Yoga629/ai-skill-library --list
+```
+
+### Install a specific skill
+
+Use the `--skill` option followed by the skill name:
+
+```bash
+npx skills add Yoga629/ai-skill-library --skill ponytail
+```
+
+For example, to install the UI/UX Pro Max skill:
+
+```bash
+npx skills add Yoga629/ai-skill-library --skill ui-ux-pro-max
+```
+
+### Installation notes
+
+- Run the command in the project directory where you want to use the skill.
+- The Skills CLI may ask you to select an AI coding agent and an installation scope.
+- Restart your agent session if necessary so it can load the newly installed skill.
+- Not every skill is suitable for every task. Use skills according to their documented purpose and activation conditions.
+- Installing a skill does not mean that its instructions have been executed or that its tools have been installed.
+
+For more information, see the [Skills CLI documentation](https://github.com/vercel-labs/skills).
+
 ## Design principles
 
 - **Modular:** one skill should solve one recognizable class of tasks.
