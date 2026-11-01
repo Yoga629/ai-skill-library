@@ -1,3 +1,8 @@
+---
+name: superpowers
+description: Apply structured software development workflows for planning, implementation, and verification.
+---
+
 # Superpowers
 
 > **Skill ID:** 04  
