@@ -46,3 +46,23 @@ Create a folder under `skills/` and add a `SKILL.md` using `SKILL_TEMPLATE.md`. 
 ## Versioning
 
 Use Git history and release tags to track changes. Add a version and changelog to individual skills when their behavior changes substantially.
+
+### UX/UI Agent Skills
+
+Commands and workflow are documented in [`skills/ux-ui-agent-skills/SKILL.md`](skills/ux-ui-agent-skills/SKILL.md).
+
+### Apple Design Skill
+
+A post-implementation UI review skill. See [`skills/apple-design-skill/SKILL.md`](skills/apple-design-skill/SKILL.md).
+
+### AntiSlop AI
+
+A quality filter for AI-generated UI, copy, and code. See [`skills/antislop-ai/SKILL.md`](skills/antislop-ai/SKILL.md).
+
+### Ponytail
+
+A minimal-code / anti-overengineering coding skill. See [`skills/ponytail/SKILL.md`](skills/ponytail/SKILL.md).
+
+## Global skill workflow
+
+Use [`SKILL_WORKFLOW.md`](SKILL_WORKFLOW.md) as the top-level rule for selecting and applying skills. In brief: Find Skills first, Ponytail for code, and relevant design skills for UI/UX quality and avoiding generic AI output.

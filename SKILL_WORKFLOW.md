@@ -1,0 +1,39 @@
+# Global Skill Usage Rules
+
+These rules govern how skills in this repository are selected and used across tasks.
+
+## Required order
+
+### 1. Find Skills first
+Start each substantial task by using **Find Skills** to identify skills relevant to the user's goal and context.
+
+- Match skills to the actual task, stack, and deliverable.
+- Prefer a small set of relevant skills over loading the entire library.
+- If Find Skills cannot be executed in the current environment, disclose that limitation and use the catalog manually; do not claim the search was run.
+
+### 2. Ponytail for code
+When writing, editing, debugging, or refactoring code, apply **Ponytail** as the coding discipline.
+
+- Prefer the smallest complete solution.
+- Reuse existing project patterns and dependencies where reasonable.
+- Avoid unnecessary abstractions, dependencies, boilerplate, and speculative features.
+- Do not sacrifice correctness, security, validation, accessibility, or maintainability for fewer lines.
+
+### 3. Design skills for UI/UX
+For interface design and frontend presentation, select relevant design skills from the library to guide the work and avoid generic AI-generated design (“AI slop”).
+
+- Use **UI/UX Pro Max**, **Taste Skill**, **Impeccable**, and/or **UX/UI Agent Skills** when their documented scope fits the task.
+- Do not blindly apply every design skill. Resolve overlap and conflicts in favor of the user's requirements, the existing design system, accessibility, and a coherent visual direction.
+- Apply design guidance during generation/implementation when appropriate.
+- Use **Apple Design Skill only after a UI exists**, as a review/critique skill; it is not a UI generator.
+- Use **AntiSlop AI** as an additional quality filter when installed and relevant. Do not claim it is active unless its instructions were actually loaded.
+
+## Task-specific skills
+After the required selection sequence, add other skills only when they materially help the task. Examples include repository-specific tools, architecture review, or design-system retrieval.
+
+## Execution and honesty
+- A documented command is not the same as an installed or executed skill.
+- Never claim a skill was loaded, installed, run, or verified unless that actually happened.
+- If a skill or terminal is unavailable, state the limitation briefly and provide a practical fallback.
+- Confirm the target project directory before commands that modify files or configuration.
+- Keep the final output focused on the user's requested deliverable and meaningful findings.
