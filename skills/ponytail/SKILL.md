@@ -1,5 +1,10 @@
 # Ponytail
 
+---
+name: ponytail
+description: Write minimal, complete, maintainable code while avoiding unnecessary complexity.
+---
+
 ## Purpose
 A coding skill/plugin that encourages the smallest complete implementation: reuse existing patterns, avoid unnecessary code and dependencies, and preserve validation, security, and tests.
 
