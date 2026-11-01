@@ -1,3 +1,7 @@
+---
+name: ui-ux-pro-max
+description: Create consistent, high-quality UI/UX using design systems, patterns, and design guidance.
+---
 # UI/UX Pro Max
 
 > **Skill ID:** 05  
