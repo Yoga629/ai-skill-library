@@ -1,6 +1,14 @@
 # Skill Catalog
 
-This catalog lists the skills available in the repository.
+---
+name: ponytail
+description: Write minimal, complete, maintainable code while avoiding unnecessary complexity.
+---
+
+# Ponytail
+
+## Purpose
+...
 
 ## Available skills
 
