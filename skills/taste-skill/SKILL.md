@@ -1,3 +1,7 @@
+---
+name: taste-skill
+description: Improve frontend visual quality and avoid generic AI-generated interface patterns.
+---
 # Taste Skill
 
 > **Skill ID:** 06  
