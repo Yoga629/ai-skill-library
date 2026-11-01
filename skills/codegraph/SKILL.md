@@ -1,3 +1,7 @@
+---
+name: codegraph
+description: Analyze and visualize codebase structure and relationships using CodeGraph.
+---
 # CodeGraph
 
 > **Skill ID:** 03  
