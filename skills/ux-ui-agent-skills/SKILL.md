@@ -1,3 +1,7 @@
+---
+name: ux-ui-agent-skills
+description: Initialize UX/UI skill areas, inspect available areas, and retrieve design-system specifications.
+---
 # UX/UI Agent Skills
 
 ## Purpose
