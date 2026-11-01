@@ -1,3 +1,7 @@
+---
+name: find-skills
+description: Find and select relevant skills based on the user's task and context.
+---
 # Find Skills
 
 > **Skill ID:** 01  
