@@ -1,3 +1,7 @@
+---
+name: apple-design-skill
+description: Review an existing UI against Apple design principles; use after implementation, not for UI generation.
+---
 # Apple Design Skill
 
 ## Purpose
