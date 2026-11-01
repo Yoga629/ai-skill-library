@@ -1,3 +1,7 @@
+---
+name: impeccable
+description: Refine interface design and frontend implementation using focused design guidance.
+---
 # Impeccable
 
 > **Skill ID:** 07  
