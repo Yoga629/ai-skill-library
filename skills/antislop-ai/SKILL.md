@@ -1,3 +1,7 @@
+---
+name: antislop-ai
+description: Reduce generic AI-generated UI, copy, and code patterns during implementation or review.
+---
 # AntiSlop AI
 
 ## Purpose
