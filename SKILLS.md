@@ -22,7 +22,12 @@ This repository contains reusable AI skills for software development, UI/UX desi
   - **File:** `skills/antigravity-skills-manager/SKILL.md`
   - **Package:** `@rmyndharis/antigravity-skills`
 
-- **Graphify** — Build and query persistent knowledge graphs for complex codebases and project corpora.\n  - **Use when:** Architecture, cross-file relationships, documentation-to-code links, or repeated structural questions make a graph worthwhile.\n  - **File:** `skills/graphify/SKILL.md`\n  - **Upstream:** `Graphify-Labs/graphify` (branch `v8`, Apache-2.0).\n\n- **CodeGraph** — Inspect code relationships and project structure.
+- **Graphify** — Build and query persistent knowledge graphs for complex codebases and project corpora.
+  - **Use when:** Architecture, cross-file relationships, documentation-to-code links, or repeated structural questions make a graph worthwhile.
+  - **File:** `skills/graphify/SKILL.md`
+  - **Upstream:** `Graphify-Labs/graphify` (branch `v8`, Apache-2.0).
+
+- **CodeGraph** — Inspect code relationships and project structure.
   - **Use when:** Working on an existing codebase where understanding dependencies matters.
   - **File:** `skills/codegraph/SKILL.md`
   - **Package:** `@colbymchenry/codegraph`
