@@ -29,7 +29,14 @@ For interface design and frontend presentation, select relevant design skills fr
 - Use **AntiSlop AI** as an additional quality filter when installed and relevant. Do not claim it is active unless its instructions were actually loaded.
 
 ## Task-specific skills
-After the required selection sequence, add other skills only when they materially help the task. Examples include repository-specific tools, architecture review, or design-system retrieval.
+
+After Find Skills, select additional skills only when they materially help the task.
+
+- **Graphify:** For large or unfamiliar codebases, architecture questions, cross-file relationships, or repeated queries over the same project corpus, check for an existing `graphify-out/graph.json` first. Query an existing graph before rebuilding. For a simple one-off lookup, use targeted search/read instead of building a graph.
+- **CodeGraph:** Use when its project code-relationship analysis fits the repository and task.
+- **Other specialized skills:** Use only when their documented scope fits, such as retrieving a design-system specification or running a post-implementation UI review.
+
+When coding is involved, apply Ponytail to the implementation after the relevant discovery and inspection steps.
 
 ## Execution and honesty
 - A documented command is not the same as an installed or executed skill.
