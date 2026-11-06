@@ -110,4 +110,12 @@ Use [`SKILL_WORKFLOW.md`](SKILL_WORKFLOW.md) as the top-level rule for selecting
 
 ### Graphify
 
-Graphify builds and queries a knowledge graph for complex codebases and project corpora. See [`skills/graphify/SKILL.md`](skills/graphify/SKILL.md). This is an adapted portable summary; consult the [upstream Graphify repository](https://github.com/Graphify-Labs/graphify) for the complete agent-specific workflow and references.
+Graphify provides a Codex-targeted skill and supporting reference files for building and querying persistent knowledge graphs for complex codebases and project corpora. See [`skills/graphify/SKILL.md`](skills/graphify/SKILL.md). The upstream Apache-2.0 license and attribution notice are included in the skill folder.
+
+Install only this skill:
+
+```bash
+npx skills add Yoga629/ai-skill-library --skill graphify
+```
+
+The skill's workflow may install the Graphify CLI package (`graphifyy`) when needed. Review its instructions before running setup commands. Upstream: https://github.com/Graphify-Labs/graphify (branch `v8`).
