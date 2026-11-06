@@ -106,3 +106,8 @@ A minimal-code / anti-overengineering coding skill. See [`skills/ponytail/SKILL.
 ## Global skill workflow
 
 Use [`SKILL_WORKFLOW.md`](SKILL_WORKFLOW.md) as the top-level rule for selecting and applying skills. In brief: Find Skills first, Ponytail for code, and relevant design skills for UI/UX quality and avoiding generic AI output.
+
+
+### Graphify
+
+Graphify builds and queries a knowledge graph for complex codebases and project corpora. See [`skills/graphify/SKILL.md`](skills/graphify/SKILL.md). This is an adapted portable summary; consult the [upstream Graphify repository](https://github.com/Graphify-Labs/graphify) for the complete agent-specific workflow and references.
