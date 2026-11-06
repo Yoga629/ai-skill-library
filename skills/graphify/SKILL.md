@@ -5,6 +5,8 @@ description: Use for questions about a codebase, its architecture, file relation
 
 # Graphify
 
+> Adapted portable summary of the upstream Graphify skill for this library. For the complete agent-specific workflow and reference files, consult the upstream repository.
+
 ## Purpose
 Turn a codebase and its related materials into a queryable knowledge graph. Use the graph to understand architecture, dependencies, file relationships, and connections across source code, documentation, SQL schemas, configuration files, papers, and other supported material.
 
