@@ -119,3 +119,36 @@ npx skills add Yoga629/ai-skill-library --skill graphify
 ```
 
 The skill's workflow may install the Graphify CLI package (`graphifyy`) when needed. Review its instructions before running setup commands. Upstream: https://github.com/Graphify-Labs/graphify (branch `v8`).
+
+
+### BrowserAct
+
+BrowserAct provides local browser automation, rendered-page extraction, browser session management, and user-assisted workflows. See [`skills/browser-act/SKILL.md`](skills/browser-act/SKILL.md).
+
+Install the skill:
+
+```bash
+npx skills add Yoga629/ai-skill-library --skill browser-act
+```
+
+Install the BrowserAct CLI runtime separately (Python 3.12+ and `uv` required):
+
+```bash
+uv tool install browser-act-cli --python 3.12
+```
+
+The standard Chrome workflow can work without an API key. Some optional capabilities, such as managed stealth browsers and proxy services, require BrowserAct authentication. See the [upstream installation guide](https://github.com/browser-act/skills/blob/main/docs/installation.md).
+
+### BrowserAct Skill Forge
+
+Skill Forge helps explore a specific website and turn a verified workflow into a reusable Skill package. See [`skills/browser-act-skill-forge/SKILL.md`](skills/browser-act-skill-forge/SKILL.md) and its [reference files](skills/browser-act-skill-forge/references/).
+
+Install the skill:
+
+```bash
+npx skills add Yoga629/ai-skill-library --skill browser-act-skill-forge
+```
+
+BrowserAct CLI must be installed and configured first. Skill Forge is not a general-purpose browser skill; use it when a reusable, site-specific capability is actually needed.
+
+**Safety:** Both skills are limited to authorized access. Do not bypass access controls, CAPTCHA/security restrictions, or paywalls. Confirm before consequential actions such as submitting forms, posting, uploading, purchasing, or changing account settings.
