@@ -34,7 +34,11 @@ After Find Skills, select additional skills only when they materially help the t
 
 - **Graphify:** For large or unfamiliar codebases, architecture questions, cross-file relationships, or repeated queries over the same project corpus, check for an existing `graphify-out/graph.json` first. Query an existing graph before rebuilding. For a simple one-off lookup, use targeted search/read instead of building a graph.
 - **CodeGraph:** Use when its project code-relationship analysis fits the repository and task.
+- **BrowserAct:** Use for user-requested local browser automation, JavaScript-rendered page inspection, or browser interaction where the user has authorized access. Load its skill before running BrowserAct commands; install the CLI only when needed and with the user's awareness.
+- **BrowserAct Skill Forge:** Use when the user asks to create a reusable, website-specific Skill. It depends on BrowserAct. Do not use it for a one-off page lookup.
 - **Other specialized skills:** Use only when their documented scope fits, such as retrieving a design-system specification or running a post-implementation UI review.
+
+For BrowserAct tasks, do not bypass authentication, access controls, paywalls, CAPTCHAs, rate limits, or other technical restrictions. Require confirmation before consequential browser actions (form submissions, messages, uploads, purchases, account changes, or deletions). Do not expose credentials, cookies, or session tokens.
 
 When coding is involved, apply Ponytail to the implementation after the relevant discovery and inspection steps.
 
