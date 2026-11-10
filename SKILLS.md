@@ -22,7 +22,20 @@ This repository contains reusable AI skills for software development, UI/UX desi
   - **File:** `skills/antigravity-skills-manager/SKILL.md`
   - **Package:** `@rmyndharis/antigravity-skills`
 
-- **BrowserAct** — Automate browser workflows and extract rendered website content using the BrowserAct CLI, subject to user authorization and confirmation gates.\n  - **Use when:** The user explicitly requests BrowserAct, local browser automation, authenticated browser interaction, or JavaScript-rendered page extraction.\n  - **File:** `skills/browser-act/SKILL.md`\n  - **Runtime:** `uv tool install browser-act-cli --python 3.12`\n  - **Upstream:** `browser-act/skills` (MIT; license included in the skill folder).\n\n- **BrowserAct Skill Forge** — Explore a website and generate a reusable website-specific Skill package.\n  - **Use when:** The user wants to build a reusable browser-based extraction or operation skill for a specific site.\n  - **File:** `skills/browser-act-skill-forge/SKILL.md`\n  - **References:** `skills/browser-act-skill-forge/references/`\n  - **Dependency:** BrowserAct CLI and its core skill.\n  - **Upstream:** `browser-act/skills` (MIT).\n\n- **Graphify** — Build and query persistent knowledge graphs for complex codebases and project corpora, with a Codex-targeted workflow and supporting references.
+- **BrowserAct** — Automate browser workflows and extract rendered website content using the BrowserAct CLI, subject to user authorization and confirmation gates.
+  - **Use when:** The user explicitly requests BrowserAct, local browser automation, authenticated browser interaction, or JavaScript-rendered page extraction.
+  - **File:** `skills/browser-act/SKILL.md`
+  - **Runtime:** `uv tool install browser-act-cli --python 3.12`
+  - **Upstream:** `browser-act/skills` (MIT; license included in the skill folder).
+
+- **BrowserAct Skill Forge** — Explore a website and generate a reusable website-specific Skill package.
+  - **Use when:** The user wants to build a reusable, site-specific browser extraction or operation skill.
+  - **File:** `skills/browser-act-skill-forge/SKILL.md`
+  - **References:** `skills/browser-act-skill-forge/references/`
+  - **Dependency:** BrowserAct CLI and its core skill.
+  - **Upstream:** `browser-act/skills` (MIT).
+
+- **Graphify** — Build and query persistent knowledge graphs for complex codebases and project corpora, with a Codex-targeted workflow and supporting references.
   - **Use when:** Architecture, cross-file relationships, documentation-to-code links, or repeated structural questions make a graph worthwhile.
   - **File:** `skills/graphify/SKILL.md`
   - **References:** `skills/graphify/references/`
