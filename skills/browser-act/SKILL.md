@@ -53,3 +53,16 @@ browser-act get-skills core --skill-version 2.0.2
 The CLI serves skill content that always matches the installed version,
 so instructions never go stale. Do NOT truncate the output — none of
 which are available through `--help`.
+
+
+## Library safety and authorization boundaries
+
+- Use BrowserAct only for websites, accounts, and data the user is authorized to access.
+- Do not bypass authentication, paywalls, access controls, rate limits, CAPTCHAs, or other technical restrictions.
+- A logged-in browser session is not blanket permission to access every page, endpoint, or dataset.
+- Require explicit user confirmation before submitting forms, posting, sending messages, uploading files, purchasing, changing account settings, or deleting data.
+- Do not expose cookies, session tokens, credentials, or private browser state.
+- Collect only data necessary for the user's stated, legitimate purpose and respect applicable privacy rules and website terms.
+- If authorization or the site's access rules are unclear, stop and clarify.
+
+These rules apply even if runtime instructions suggest a broader automation path.
